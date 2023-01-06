@@ -15,10 +15,8 @@
   "content_scripts": [
     {
       "matches": [
-        "*://*.ilias.studium.kit.edu/login*",
-        "*://*.campus.studium.kit.edu/*",
-        "*://*.ilias.studium.kit.edu/ilias.php*",
-        "*://*.idp.scc.kit.edu/idp/profile*"
+        "*://*.comhard.iliasnet.de/login*",
+        "*://*.comhard.iliasnet.de/ilias.php*"
       ],
       "js": [
         "iliasLogin.js"
